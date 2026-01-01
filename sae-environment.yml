@@ -1,0 +1,42 @@
+name: sae-lens-env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  # Core dependencies via conda for better compatibility
+  - numpy<2.0
+  - matplotlib
+  - jupyter
+  - ipykernel
+
+  - pip:
+      # PyTorch
+      - torch>=2.0.0,<2.4.0
+      - torchvision>=0.15.0,<0.19.0
+
+      # Core ML libraries
+      - transformers>=4.35.0
+      - datasets>=2.14.0
+      - huggingface-hub>=0.19.0
+
+      # SAE-lens and TransformerLens ecosystem
+      - sae-lens>=6.0.0
+      - transformer-lens>=1.14.0
+
+      # Math/utility libraries
+      - einops>=0.7.0
+      # REMOVED: - beartype>=0.17.0  <-- This was causing the crash
+      - jaxtyping>=0.2.25
+
+      # Progress bars and utilities
+      - tqdm>=4.66.0
+
+      # Jupyter support
+      - ipython
+      - ipywidgets
