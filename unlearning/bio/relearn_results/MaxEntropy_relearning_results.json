@@ -1,0 +1,59 @@
+{
+  "method": "MaxEntropy",
+  "before_accuracy": 0.2537313432835821,
+  "after_accuracy": 0.5247446975648076,
+  "before_perplexity": 63.66323911302499,
+  "after_perplexity": 21.231758875452265,
+  "before_mmlu": 0.32,
+  "after_mmlu": 0.325,
+  "recovery_rate": 0.9007832898172324,
+  "original_accuracy": 0.5545954438334643,
+  "original_perplexity": 62.81936413539656,
+  "original_mmlu": 0.375,
+  "relearned_model_path": "/workspace/transcoder-ablation-pipeline/unlearning/bio/relearn_results/MaxEntropy-relearned",
+  "steps": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "loss_curve": [
+    4.079984664916992,
+    1.879662036895752,
+    2.631068229675293,
+    2.199615716934204,
+    1.8183388710021973,
+    2.239696979522705
+  ],
+  "accuracy_curve": [
+    0.38177533385703066,
+    0.5082482325216026,
+    0.5263157894736842,
+    0.5294579732914375,
+    0.5278868813825609,
+    0.5247446975648076
+  ],
+  "perplexity_curve": [
+    68.19387182008822,
+    73.6719629881558,
+    8.130766185488756,
+    52.21654502266702,
+    24.130058217981738,
+    21.231758875452265
+  ],
+  "mmlu_curve": [
+    0.33,
+    0.34,
+    0.33,
+    0.335,
+    0.335,
+    0.325
+  ],
+  "final_loss": 2.239696979522705,
+  "final_accuracy": 0.5247446975648076,
+  "final_perplexity": 21.231758875452265,
+  "final_mmlu": 0.325,
+  "total_steps": 30
+}

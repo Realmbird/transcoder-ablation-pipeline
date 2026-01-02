@@ -1,0 +1,179 @@
+{
+  "MaxEntropy": {
+    "method": "MaxEntropy",
+    "before_accuracy": 0.2537313432835821,
+    "after_accuracy": 0.5247446975648076,
+    "before_perplexity": 63.66323911302499,
+    "after_perplexity": 21.231758875452265,
+    "before_mmlu": 0.32,
+    "after_mmlu": 0.325,
+    "recovery_rate": 0.9007832898172324,
+    "original_accuracy": 0.5545954438334643,
+    "original_perplexity": 62.81936413539656,
+    "original_mmlu": 0.375,
+    "relearned_model_path": "/workspace/transcoder-ablation-pipeline/unlearning/bio/relearn_results/MaxEntropy-relearned",
+    "steps": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "loss_curve": [
+      4.079984664916992,
+      1.879662036895752,
+      2.631068229675293,
+      2.199615716934204,
+      1.8183388710021973,
+      2.239696979522705
+    ],
+    "accuracy_curve": [
+      0.38177533385703066,
+      0.5082482325216026,
+      0.5263157894736842,
+      0.5294579732914375,
+      0.5278868813825609,
+      0.5247446975648076
+    ],
+    "perplexity_curve": [
+      68.19387182008822,
+      73.6719629881558,
+      8.130766185488756,
+      52.21654502266702,
+      24.130058217981738,
+      21.231758875452265
+    ],
+    "mmlu_curve": [
+      0.33,
+      0.34,
+      0.33,
+      0.335,
+      0.335,
+      0.325
+    ],
+    "final_loss": 2.239696979522705,
+    "final_accuracy": 0.5247446975648076,
+    "final_perplexity": 21.231758875452265,
+    "final_mmlu": 0.325,
+    "total_steps": 30
+  },
+  "RMU": {
+    "method": "RMU",
+    "before_accuracy": 0.4838963079340141,
+    "after_accuracy": 0.5294579732914375,
+    "before_perplexity": 65.47393618988625,
+    "after_perplexity": 94.22309276168637,
+    "before_mmlu": 0.33,
+    "after_mmlu": 0.365,
+    "recovery_rate": 0.644444444444444,
+    "original_accuracy": 0.5545954438334643,
+    "original_perplexity": 62.81936413539656,
+    "original_mmlu": 0.375,
+    "relearned_model_path": "/workspace/transcoder-ablation-pipeline/unlearning/bio/relearn_results/RMU-relearned",
+    "steps": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "loss_curve": [
+      2.1479413509368896,
+      2.07021164894104,
+      2.187460422515869,
+      1.924122929573059,
+      1.864877462387085,
+      2.0869412422180176
+    ],
+    "accuracy_curve": [
+      0.5475255302435192,
+      0.5349567949725059,
+      0.5349567949725059,
+      0.5310290652003142,
+      0.5310290652003142,
+      0.5294579732914375
+    ],
+    "perplexity_curve": [
+      75.29414556544627,
+      84.099502273466,
+      90.27849107930248,
+      93.37649631793604,
+      95.1758308413529,
+      94.22309276168637
+    ],
+    "mmlu_curve": [
+      0.345,
+      0.35,
+      0.355,
+      0.355,
+      0.36,
+      0.365
+    ],
+    "final_loss": 2.0869412422180176,
+    "final_accuracy": 0.5294579732914375,
+    "final_perplexity": 94.22309276168637,
+    "final_mmlu": 0.365,
+    "total_steps": 30
+  },
+  "NPO": {
+    "method": "NPO",
+    "before_accuracy": 0.4186959937156324,
+    "after_accuracy": 0.45640219952867245,
+    "before_perplexity": 27.80244703295273,
+    "after_perplexity": 27.8613683667687,
+    "before_mmlu": 0.275,
+    "after_mmlu": 0.325,
+    "recovery_rate": 0.277456647398844,
+    "original_accuracy": 0.5545954438334643,
+    "original_perplexity": 62.81936413539656,
+    "original_mmlu": 0.375,
+    "relearned_model_path": "/workspace/transcoder-ablation-pipeline/unlearning/bio/relearn_results/NPO-relearned",
+    "steps": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "loss_curve": [
+      2.400597333908081,
+      2.3477518558502197,
+      2.641604423522949,
+      2.6392271518707275,
+      2.9520323276519775,
+      2.463125228881836
+    ],
+    "accuracy_curve": [
+      0.43283582089552236,
+      0.43205027494108406,
+      0.4375490966221524,
+      0.44540455616653574,
+      0.45247446975648076,
+      0.45640219952867245
+    ],
+    "perplexity_curve": [
+      28.027410891752186,
+      30.609256124546523,
+      31.173324876882457,
+      30.052347310112683,
+      28.118690191534448,
+      27.8613683667687
+    ],
+    "mmlu_curve": [
+      0.3,
+      0.305,
+      0.31,
+      0.31,
+      0.325,
+      0.325
+    ],
+    "final_loss": 2.463125228881836,
+    "final_accuracy": 0.45640219952867245,
+    "final_perplexity": 27.8613683667687,
+    "final_mmlu": 0.325,
+    "total_steps": 30
+  }
+}

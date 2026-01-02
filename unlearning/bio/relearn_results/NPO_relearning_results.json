@@ -1,0 +1,59 @@
+{
+  "method": "NPO",
+  "before_accuracy": 0.4186959937156324,
+  "after_accuracy": 0.45640219952867245,
+  "before_perplexity": 27.80244703295273,
+  "after_perplexity": 27.8613683667687,
+  "before_mmlu": 0.275,
+  "after_mmlu": 0.325,
+  "recovery_rate": 0.277456647398844,
+  "original_accuracy": 0.5545954438334643,
+  "original_perplexity": 62.81936413539656,
+  "original_mmlu": 0.375,
+  "relearned_model_path": "/workspace/transcoder-ablation-pipeline/unlearning/bio/relearn_results/NPO-relearned",
+  "steps": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "loss_curve": [
+    2.400597333908081,
+    2.3477518558502197,
+    2.641604423522949,
+    2.6392271518707275,
+    2.9520323276519775,
+    2.463125228881836
+  ],
+  "accuracy_curve": [
+    0.43283582089552236,
+    0.43205027494108406,
+    0.4375490966221524,
+    0.44540455616653574,
+    0.45247446975648076,
+    0.45640219952867245
+  ],
+  "perplexity_curve": [
+    28.027410891752186,
+    30.609256124546523,
+    31.173324876882457,
+    30.052347310112683,
+    28.118690191534448,
+    27.8613683667687
+  ],
+  "mmlu_curve": [
+    0.3,
+    0.305,
+    0.31,
+    0.31,
+    0.325,
+    0.325
+  ],
+  "final_loss": 2.463125228881836,
+  "final_accuracy": 0.45640219952867245,
+  "final_perplexity": 27.8613683667687,
+  "final_mmlu": 0.325,
+  "total_steps": 30
+}

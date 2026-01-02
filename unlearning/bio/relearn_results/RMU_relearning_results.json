@@ -1,0 +1,59 @@
+{
+  "method": "RMU",
+  "before_accuracy": 0.4838963079340141,
+  "after_accuracy": 0.5294579732914375,
+  "before_perplexity": 65.47393618988625,
+  "after_perplexity": 94.22309276168637,
+  "before_mmlu": 0.33,
+  "after_mmlu": 0.365,
+  "recovery_rate": 0.644444444444444,
+  "original_accuracy": 0.5545954438334643,
+  "original_perplexity": 62.81936413539656,
+  "original_mmlu": 0.375,
+  "relearned_model_path": "/workspace/transcoder-ablation-pipeline/unlearning/bio/relearn_results/RMU-relearned",
+  "steps": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "loss_curve": [
+    2.1479413509368896,
+    2.07021164894104,
+    2.187460422515869,
+    1.924122929573059,
+    1.864877462387085,
+    2.0869412422180176
+  ],
+  "accuracy_curve": [
+    0.5475255302435192,
+    0.5349567949725059,
+    0.5349567949725059,
+    0.5310290652003142,
+    0.5310290652003142,
+    0.5294579732914375
+  ],
+  "perplexity_curve": [
+    75.29414556544627,
+    84.099502273466,
+    90.27849107930248,
+    93.37649631793604,
+    95.1758308413529,
+    94.22309276168637
+  ],
+  "mmlu_curve": [
+    0.345,
+    0.35,
+    0.355,
+    0.355,
+    0.36,
+    0.365
+  ],
+  "final_loss": 2.0869412422180176,
+  "final_accuracy": 0.5294579732914375,
+  "final_perplexity": 94.22309276168637,
+  "final_mmlu": 0.365,
+  "total_steps": 30
+}

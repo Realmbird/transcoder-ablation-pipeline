@@ -1,0 +1,31 @@
+{
+  "additional_special_tokens": [
+    "<start_of_turn>",
+    "<end_of_turn>"
+  ],
+  "bos_token": {
+    "content": "<bos>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "cls_token": "<eos>",
+  "eos_token": {
+    "content": "<eos>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "mask_token": "<eos>",
+  "pad_token": "<eos>",
+  "sep_token": "<eos>",
+  "unk_token": {
+    "content": "<unk>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  }
+}
